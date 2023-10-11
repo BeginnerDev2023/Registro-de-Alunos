@@ -14,7 +14,7 @@ public class CRUDAlunos {
         PriorityQueue<Aluno> filaDePrioridade = new PriorityQueue<>((a1, a2) -> a1.getNome().compareTo(a2.getNome()));
 
         while (true) {
-            System.out.println("\n\nMenu:");
+            System.out.println("\nMenu:");
             System.out.println("1. Registrar aluno");
             System.out.println("2. Exibir alunos registrados");
             System.out.println("3. Atualizar Aluno");
