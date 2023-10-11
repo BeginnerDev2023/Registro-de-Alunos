@@ -148,7 +148,9 @@ public class CRUDAlunos {
                 entrada.close();
                 System.exit(0);
 
-            } 
+            } else {
+                System.out.println("Opção inválida, tente novamente.");
+            }
         }
     }
 }
